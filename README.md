@@ -1,2 +1,2 @@
 # R-Codes
-R Programming Codes and 
+R Programming Codes and Shortcust
