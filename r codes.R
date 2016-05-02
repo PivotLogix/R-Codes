@@ -1,5 +1,4 @@
 ##get working directory##
-
 getwd()
 
 ##set working directory##
@@ -14,9 +13,7 @@ list.files("diet_data")
 ##read table for reviewing only video shows how to read and load data in r https://www.youtube.com/watch?v=YRMPS_1r8mA##
 read.csv("001.csv", header=TRUE)
 
-
-##stores data in memory makes available to write funtions
-##
+##stores data in memory makes available to write funtions##
 files <- list.files("files directory path location", full.names=TRUE)
 
 ##loda files into memory to run calculations##
@@ -35,7 +32,6 @@ options(editor = "internal")
 
 ##see only the number of rows##
 nrow(plants name of file)
-
 
 ##see only the number of columns##
 
@@ -70,7 +66,6 @@ head(plants, n=10)
 tail(plants, 15)
 summary(plants)
 table(plants$Active_Growth_Period).
-
 
 #shows data frame
 str(plants)
